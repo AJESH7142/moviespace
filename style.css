@@ -1,0 +1,272 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+
+.main {
+  width: 100%;
+  background-image: linear-gradient(rgba(45, 47, 63, 0.75), rgba(55, 50, 50, 0.75)), url(./images/478242451.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.va{
+  color: rgb(111, 111, 202);
+}
+
+.logo {
+  color: rgb(142, 181, 204);
+  width: 120px;
+  cursor: pointer;
+  transition: 0.02s ease-in;
+  animation: anim 1s ease-in-out 2s infinite;
+}
+
+.head1 {
+  width: 85%;
+  margin: 0;
+  padding: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(49, 89, 176, 0.817);
+  padding-right: 152px;
+  margin-bottom: 5px;
+  position: fixed;
+  z-index: 5;
+}
+
+.head1 ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.555);
+  text-transform: uppercase;
+
+}
+
+li:hover {
+  transform: scale(1.08);
+}
+
+a:hover {
+  color: aqua;
+}
+
+ul li {
+  transition: 0.5s;
+}
+
+h4{
+  padding: 20px;
+  display: inline;
+  color: rgba(98, 132, 121, 0.587);
+}
+
+i {
+  color: rgba(207, 207, 141, 0.461);
+  padding-top: 20px;
+}
+
+.body {
+  margin-left: 50px;
+  padding: 50px;
+  position: relative;
+}
+
+.bboys{
+  width: 50%;
+  padding-top: 20px;
+  color: rgb(139, 185, 135);
+  text-align: left;
+}
+
+.head2 {
+  color: rgb(75, 62, 134);
+}
+
+.pic1 {
+  margin-left: 800px;
+  margin-top: -150px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  width: 300px;
+  height: 350px;
+}
+
+.pic1:hover {
+  box-shadow: 5px 5px 10px aqua;
+  transform: scale(1.05);
+}
+
+.recom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  color: aquamarine;
+  padding: 50px;
+  position: sticky;
+  top: 50px;
+
+}
+.photo{
+  margin-top: 80px;
+}
+
+.mov1 {
+  width: 200px;
+  height: 300px;
+}
+
+.mov2 {
+  width: 200px;
+  height: 300px;
+}
+
+.mov3 {
+  width: 200px;
+  height: 300px;
+}
+
+.mov4 {
+  width: 200px;
+  height: 300px;
+}
+
+.mov {
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  padding: 15px;
+}
+
+.mov:hover {
+  transform: scale(1.08);
+  box-shadow: 5px 5px 10px aqua;
+}
+h5{
+  text-align: center;
+  margin: 30px;
+  color: rgba(111, 111, 255, 0.587);
+}
+p{
+  width: 200px;
+  text-align: center;
+  margin-left: 10px;
+  color: rgb(139, 185, 135);
+}
+.bboys{
+  display: inline-block;
+  width: 20%;
+}
+.desc{
+  padding: 10px;
+  text-align: left;
+}
+.button{
+  margin: 20px;
+  color: rgb(37, 158, 158);
+  background-color: rgba(137, 43, 226, 0.114);
+  border: none;
+}
+.bt1{
+  margin-left: 540px;
+}
+.input{
+  text-align: center;
+  background-color: rgba(17, 10, 23, 0.13);
+  border: none;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.input:hover{
+  background-color: rgb(168, 155, 155);
+  box-shadow: 0px 4px 3px rgb(96, 96, 154);
+  transform: scale(1.03);
+}
+.search{
+  margin-left: 40px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgba(184, 184, 215, 0.632);
+  background-color: rgb(140, 120, 120);
+  border: none;
+}
+.search:hover{
+  background-color:rgba(184, 184, 215, 0.632);
+  color:rgb(140, 120, 120);
+  box-shadow: 0px 4px 3px rgb(96, 96, 154);
+  transform: scale(1.03);
+}
+.logo:hover{
+  transform: rotate(-10deg);
+}
+@keyframes anim{
+  0%{
+    transform: scale(1.001);
+  }
+  50%{
+    transform: scale(0.93);
+  }
+  100%{
+    transform: scale(1.001);
+  }
+}
+.shows{
+  display: flex;
+  margin-left: 50px;
+}
+hr{
+  width: 50%;
+}
+.bdgys{
+  width: 400px;
+  margin-left: 300px;
+  height: 400px;
+}
+.label1{
+  color: rgb(111, 209, 186);
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(46, 46, 148);
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.select1{
+  background-color:rgba(21, 21, 143, 0.947);
+  border-radius: 20px;
+  border: none;
+  color: rgba(140, 140, 177, 0.598);
+  padding: 10px;
+}
+.select1:hover{
+  transform: scale(1.02);
+}
+.catgry{
+  display: inline;
+  position: sticky;
+  top: 110px;
+}
+.signup{
+  text-align: center;
+  margin-left: 300px;
+  position: sticky;
+  top: 125px;
+}
+
